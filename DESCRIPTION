@@ -1,0 +1,7 @@
+Package: mykmeanspkg
+Title: K-means Clustering Package
+Description: This package provides a function for performing k-means clustering on a given dataset.
+Version: 0.1.0
+Author: Jacob Stachowicz
+Maintainer: Jacob Stachowicz <jis5925@g.rit.edu>
+License: GPL-3

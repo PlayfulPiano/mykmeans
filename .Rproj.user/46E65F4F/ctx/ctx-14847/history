@@ -1,0 +1,15 @@
+#' K-means Clustering Function
+#'
+#' This function performs k-means clustering on a given dataset.
+#'
+#' @param data A numeric matrix or data frame.
+#' @param k The number of clusters to create.
+#' @return A list with two elements: "clusters" contains the cluster assignments for each observation, and "centroids" contains the coordinates of the cluster centers.
+#' @export
+mykmeans <- function(data, k) {
+km <- kmeans(data, k)
+clusters <- km$cluster
+centroids <- km$centers
+list(clusters = clusters, centroids = centroids)
+}
+library(mykmeanspkg)
