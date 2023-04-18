@@ -1,12 +1,12 @@
-\name{hello}
-\alias{hello}
-\title{Hello, World!}
+\name{help}
+\alias{help}
+\title{K Means clustering Help}
 \usage{
-hello()
+mykmeans(data, k)
 }
 \description{
-Prints 'Hello, world!'.
+Perform k-means clustering on a data matrix.
 }
 \examples{
-hello()
+mykmeans(insertdatasethere, insertnumberofclustershere)
 }
