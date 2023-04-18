@@ -1,20 +1,12 @@
-#' My K-means Package
-#'
-#' This package provides a function for performing k-means clustering on a given dataset.
-#'
-#' @docType package
-#' @name mykmeanspkg
-#' @importFrom stats kmeans
-#' @export
-NULL
-
-
 #' K-means Clustering Function
 #'
 #' This function performs k-means clustering on a given dataset.
 #'
+#' @name mykmeanspkg
+#' @docType package
 #' @param data A numeric matrix or data frame.
 #' @param k The number of clusters to create.
+#' @importFrom stats kmeans
 #' @return A list with two elements: "clusters" contains the cluster assignments for each observation, and "centroids" contains the coordinates of the cluster centers.
 #' @export
 mykmeans <- function(data, k) {
